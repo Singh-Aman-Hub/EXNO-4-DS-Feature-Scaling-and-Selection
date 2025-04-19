@@ -85,7 +85,7 @@ df
 ```
 ![image](https://github.com/user-attachments/assets/93597b17-65c2-4a98-a8d1-12a76326b5c1)
 ```
-rom sklearn.preprocessing import MaxAbsScaler
+from sklearn.preprocessing import MaxAbsScaler
 mas=MaxAbsScaler()
 df[['Height','Weight']]=mas.fit_transform(df[['Height','Weight']])
 df
